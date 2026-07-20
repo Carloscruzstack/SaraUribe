@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Sara Uribe</title>
     <style>
         @page {
@@ -21,41 +22,37 @@
             line-height: 1.4;
         }
         .container {
-            display: table;
+            display: flex;
             width: 100%;
-            height: 100%;
-            min-height: 297mm;
+            min-height: 100vh;
         }
         .sidebar {
-            display: table-cell;
             width: 33%;
             background-color: #0f172a;
             color: #f1f5f9;
-            padding: 25mm 15mm;
-            vertical-align: top;
+            padding: 30px 20px;
         }
         .main-content {
-            display: table-cell;
             width: 67%;
             background-color: #ffffff;
-            padding: 25mm 20mm;
-            vertical-align: top;
+            padding: 40px 35px;
         }
         .profile-img-container {
             text-align: center;
             margin-bottom: 25px;
         }
         .profile-img {
-            width: 130px;
-            height: 130px;
+            width: 140px;
+            height: 140px;
             border-radius: 50%;
             border: 3px solid #cb9b55;
             object-fit: cover;
+            object-position: center;
             margin: 0 auto;
             display: block;
         }
         h1 {
-            font-size: 24pt;
+            font-size: 26pt;
             color: #0f172a;
             margin: 0 0 5px 0;
             text-transform: uppercase;
@@ -152,6 +149,16 @@
         }
         .timeline-desc li {
             margin-bottom: 4px;
+        }
+
+        /* Ajustes de diseño responsivo para móviles */
+        @media (max-width: 768px) {
+            .container {
+                display: block;
+            }
+            .sidebar, .main-content {
+                width: 100%;
+            }
         }
     </style>
 </head>
