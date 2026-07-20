@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>CV Sara Uribe</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8fafc;
+            color: #334155;
+            font-size: 11pt;
+            line-height: 1.4;
+        }
+        .container {
+            display: table;
+            width: 100%;
+            height: 100%;
+            min-height: 297mm;
+        }
+        .sidebar {
+            display: table-cell;
+            width: 33%;
+            background-color: #0f172a;
+            color: #f1f5f9;
+            padding: 25mm 15mm;
+            vertical-align: top;
+        }
+        .main-content {
+            display: table-cell;
+            width: 67%;
+            background-color: #ffffff;
+            padding: 25mm 20mm;
+            vertical-align: top;
+        }
+        .profile-img-container {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .profile-placeholder {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #1e293b;
+            border: 3px solid #cb9b55;
+            margin: 0 auto;
+            display: block;
+            line-height: 114px;
+            font-size: 28pt;
+            color: #cb9b55;
+            font-weight: bold;
+            text-align: center;
+        }
+        h1 {
+            font-size: 24pt;
+            color: #0f172a;
+            margin: 0 0 5px 0;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 700;
+        }
+        .subtitle {
+            font-size: 13pt;
+            color: #cb9b55;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 13pt;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 30px 0 15px 0;
+            padding-bottom: 5px;
+            font-weight: 600;
+        }
+        .sidebar h2 {
+            color: #cb9b55;
+            border-bottom: 1px solid #334155;
+        }
+        .main-content h2 {
+            color: #0f172a;
+            border-bottom: 2px solid #cbd5e1;
+        }
+        .contact-item {
+            margin-bottom: 15px;
+            font-size: 10pt;
+        }
+        .contact-label {
+            font-weight: bold;
+            color: #94a3b8;
+            display: block;
+            margin-bottom: 2px;
+            text-transform: uppercase;
+            font-size: 8pt;
+            letter-spacing: 0.5px;
+        }
+        .contact-val {
+            color: #e2e8f0;
+        }
+        .info-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .info-list li {
+            margin-bottom: 12px;
+            font-size: 10pt;
+        }
+        .lang-level {
+            color: #94a3b8;
+            float: right;
+        }
+        .summary-text {
+            font-size: 11pt;
+            color: #475569;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        .timeline-item {
+            margin-bottom: 22px;
+            position: relative;
+        }
+        .timeline-header {
+            font-weight: bold;
+            color: #0f172a;
+            font-size: 11.5pt;
+        }
+        .timeline-company {
+            color: #cb9b55;
+            font-weight: 600;
+            font-size: 10.5pt;
+            margin-bottom: 3px;
+        }
+        .timeline-date {
+            font-size: 9.5pt;
+            color: #64748b;
+            margin-bottom: 5px;
+            font-style: italic;
+        }
+        .timeline-desc {
+            font-size: 10.5pt;
+            color: #334155;
+            margin: 5px 0 0 0;
+            padding-left: 15px;
+        }
+        .timeline-desc li {
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile-img-container">
+                <div class="profile-placeholder">SU</div>
+            </div>
+            
+            <h2>Contacto</h2>
+            <div class="contact-item">
+                <span class="contact-label">Teléfono</span>
+                <span class="contact-val">658 803 224</span>
+            </div>
+            <div class="contact-item">
+                <span class="contact-label">E-Mail</span>
+                <span class="contact-val">Sara.uribego@gmail.com</span>
+            </div>
+            <div class="contact-item">
+                <span class="contact-label">NIE</span>
+                <span class="contact-val">Z1067083A</span>
+            </div>
+            <div class="contact-item">
+                <span class="contact-label">Ubicación</span>
+                <span class="contact-val">Valencia, España</span>
+            </div>
+
+            <h2>Idiomas</h2>
+            <ul class="info-list">
+                <li>Español <span class="lang-level">Nativo</span></li>
+                <li>Inglés <span class="lang-level">B2</span></li>
+            </ul>
+
+            <h2>Referencias</h2>
+            <div class="contact-item">
+                <span class="contact-label">Tatiana Teyes</span>
+                <span class="contact-val">Teléfono: 622 398 294</span>
+            </div>
+            <div class="contact-item">
+                <span class="contact-label">Carlos Londoño</span>
+                <span class="contact-val">Teléfono: 623 338 336</span>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <h1>Sara Uribe</h1>
+            <div class="subtitle">Abogada | Gestora Administrativa</div>
+            
+            <p class="summary-text">
+                Abogada graduada en Colombia y con doble titulación en España. Cuento con más de 7 años de experiencia en el sector jurídico y en gestión administrativa, con un enfoque en organización, análisis y optimización de procesos. Me considero una persona responsable, orientada a resultados y con habilidades para trabajar en equipo.
+            </p>
+
+            <h2>Experiencia Profesional</h2>
+            
+            <div class="timeline-item">
+                <div class="timeline-header">Gestora Administrativa</div>
+                <div class="timeline-company">Abogados Ferrer</div>
+                <div class="timeline-date">Valencia - España | Desde Noviembre 2025 – Actualidad</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-header">Gestión Administrativa</div>
+                <div class="timeline-company">Grupo Planeta - Universidad Internacional de Valencia</div>
+                <div class="timeline-date">Valencia - España | Febrero 2024 – Noviembre 2025</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-header">Abogada</div>
+                <div class="timeline-company">Ejercicio Independiente</div>
+                <div class="timeline-date">Colombia | Enero 2018 – Septiembre 2023</div>
+                <ul class="timeline-desc">
+                    <li>Asesoría jurídica integral y representación legal independiente.</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-header">Asistente Legal</div>
+                <div class="timeline-company">Solvo Global S.A.S. (Steinger, Greene & Feiner)</div>
+                <div class="timeline-date">Colombia | Enero 2020 – Diciembre 2022</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-header">Oficial Mayor en Juzgado Civil</div>
+                <div class="timeline-company">Juzgado 21 Civil Municipal de Medellín</div>
+                <div class="timeline-date">Colombia | Febrero 2019 – Enero 2020</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-header">Asistente Legal</div>
+                <div class="timeline-company">Despacho del Dr. Carlos Augusto Quintero</div>
+                <div class="timeline-date">Colombia | Enero 2017 – Diciembre 2018</div>
+            </div>
+
+            <h2>Educación</h2>
+            
+            <div class="timeline-item">
+                <div class="timeline-header">Máster en Gestión Administrativa</div>
+                <div class="timeline-company">Universidad Católica de Valencia</div>
+                <div class="timeline-date">Valencia - España | Finalizado en 2025</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-header">Máster en Dirección y Gestión de Negocios Digitales (MBA)</div>
+                <div class="timeline-company">Universidad Politécnica de Valencia</div>
+                <div class="timeline-date">Valencia - España | 2024</div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-header">Graduado en Derecho</div>
+                <div class="timeline-company">Universidad Autónoma Latinoamericana</div>
+                <div class="timeline-date">Medellín - Colombia | 2018</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
